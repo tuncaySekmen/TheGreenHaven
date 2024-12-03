@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Green Haven Resort</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark px-0">
+            <div class="row gx-0">
+                <div class="col-lg-3 bg-dark d-none d-lg-block">
+                    <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                        <h1 class="m-0 text-primary text-uppercase">The Green Haven</h1>
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-0 bg-white d-none d-lg-flex">
+                        <div class="col-lg-7 px-5 text-start">
+                            <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                                <i class="fa fa-envelope text-primary me-2"></i>
+                                <p class="mb-0">tsekmen.210@gmail.com</p>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-2">
+                                <i class="fa fa-phone-alt text-primary me-2"></i>
+                                <p class="mb-0">+90 546 972 09 07</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 px-5 text-end">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="me-3" href="https://x.com/_tuncaySekmen_"><i class="fab fa-twitter"></i></a>
+                                <a class="me-3" href="https://www.linkedin.com/in/tuncaysekmen/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="me-3" href="https://www.instagram.com/tuncaysekmen/?next=%2F"><i class="fab fa-instagram"></i></a>
+                                <a class="" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                        <a href="index.html" class="navbar-brand d-block d-lg-none">
+                            <h1 class="m-0 text-primary text-uppercase">The Green Haven</h1>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="index.html" class="nav-item nav-link active">ANASAYFA</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HAKKIMIZDA</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="hakkimizda.html" class="dropdown-item">Hakkımızda</a>
+                                        <a href="referanslarimiz.html" class="dropdown-item">Referanslarımız</a>
+                                    </div>
+                                </div>
+                                <a href="misyon-vizyon.html" class="nav-item nav-link">MİSYON-VİZYON</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ÜRÜNLERİMİZ</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="servislerimiz.html" class="dropdown-item">Servislerimiz</a>
+                                        <a href="odalarimiz.html" class="dropdown-item">Odalarımız</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">BİRİMLERİMİZ</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="resepsiyon.html" class="dropdown-item">Resepsiyon ve Karşılama Ekibi</a>
+                                        <a href="musteri-iliskileri.html" class="dropdown-item">Müşteri İlişkileri ve Danışmanlık</a>
+                                        <a href="temizlik-housekeeping.html" class="dropdown-item">Temizlik ve Housekeeping</a>
+                                    </div>
+                                </div>
+                                <a href="iletisim.html" class="nav-item nav-link">İLETİŞİM</a>
+                            </div>
+                            <a href="admin-paneli.html" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">ADMİN PANELİ<i class="fa fa-arrow-right ms-3"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="img/room-1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Küçük Suit</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Rahat ve şık tasarım ile huzurlu bir konaklama.</h1>
+                                <a href="odalarimiz.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Detayları Gör</a>
+                                <a href="rezervasyon.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Rezervasyon Yap</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="img/room-2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Özel Suit</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Mahremiyet ve lüksü bir arada sunar.</h1>
+                                 <a href="odalarimiz.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Detayları Gör</a>
+                                <a href="rezervasyon.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Rezervasyon Yap</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="img/room-3.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Super Deluxe Suit</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Eşsiz manzaralarla lüksün zirvesi.</h1>
+                                 <a href="odalarimiz.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Detayları Gör</a>
+                                <a href="rezervasyon.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Rezervasyon Yap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+        
+        
+
+
+       <!-- Booking Start -->
+        <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="bg-white shadow" style="padding: 35px;">
+                    <div class="row g-2">
+                        <div class="col-md-10">
+                            <div class="row g-2">
+                                <div class="col-md-3">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input"
+                                            placeholder="Başlangıç" data-target="#date1" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Bitiş" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>Yetişkin</option>
+                                        <option value="1">Yetişkin 1</option>
+                                        <option value="2">Yetişkin 2</option>
+                                        <option value="3">Yetişkin 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>Çocuk</option>
+                                        <option value="1">Çocuk 1</option>
+                                        <option value="2">Çocuk 2</option>
+                                        <option value="3">Çocuk 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary w-100">Rezerve Et</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+        
+        <!-- Ana Sayfa Duyurular/Fırsatlar/Kampanyalar Bölümü Start -->
+<div class="container py-5">
+    <h2 class="text-center mb-4">Duyurular ve Kampanyalar</h2>
+    
+    
+    <!-- Duyurular Listesi (Slider veya Kartlar) -->
+    <div class="row">
+        <!-- Duyuru 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#announcementModal1">
+                <img src="img/duyuru-1.jpg" class="card-img-top" alt="Duyuru 1">
+                <div class="card-body">
+                    <h5 class="card-title">Yaz Tatili İndirimleri</h5>
+                    <p class="card-text">%30'a varan indirim fırsatını kaçırmayın!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Duyuru 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#announcementModal2">
+                <img src="img/duyuru-2.jpg" class="card-img-top" alt="Duyuru 2">
+                <div class="card-body">
+                    <h5 class="card-title">Ücretsiz Kargo Kampanyası</h5>
+                    <p class="card-text">Tüm rezervasyonlarda ücretsiz kargo fırsatını yakalayın!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Duyuru 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#announcementModal3">
+                <img src="img/duyuru-3.jpg" class="card-img-top" alt="Duyuru 3">
+                <div class="card-body">
+                    <h5 class="card-title">Erken Rezervasyon İndirimi</h5>
+                    <p class="card-text">Yaz sezonu için %20 erken rezervasyon indirimi!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Duyuru 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#announcementModal4">
+                <img src="img/duyuru-4.jpg" class="card-img-top" alt="Duyuru 4">
+                <div class="card-body">
+                    <h5 class="card-title">Ailelere Özel Paketlerde Ekstra %15 İndirim!</h5>
+                    <p class="card-text">Ailelere özel paketlerimizde ekstra %15 indirim sizleri bekliyor</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Duyuru 5 -->
+    <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#announcementModal5">
+        <img src="img/duyuru-5.jpg" class="card-img-top" alt="Duyuru 5">
+        <div class="card-body">
+            <h5 class="card-title">Sadık Müşterilerimize Özel İndirim</h5>
+            <p class="card-text">Sadık müşterilerimize özel %25 indirim fırsatını kaçırmayın!</p>
+        </div>
+        </div>
+    </div>
+        
+            <!-- Duyuru 6 -->
+<div class="col-md-4 mb-4">
+    <div class="card" data-bs-toggle="modal" data-bs-target="#announcementModal6">
+        <img src="img/duyuru-6.jpg" class="card-img-top" alt="Duyuru 6">
+        <div class="card-body">
+            <h5 class="card-title">Yeni Yıl Erken Rezervasyon İndirimi</h5>
+            <p class="card-text">Yeni yıl için %20 erken rezervasyon indirimi fırsatını kaçırmayın!</p>
+        </div>
+    </div>
+</div>
+
+        <!-- "Daha Fazla" butonu -->
+        <div class="col-12 text-center">
+            <a href="duyurular.html" class="btn btn-primary">Tüm Duyuruları Gör</a>
+        </div>
+        </div>
+    </div>
+    
+
+    
+    
+
+<!-- Modal 1 -->
+<div class="modal fade" id="announcementModal1" tabindex="-1" aria-labelledby="announcementModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="announcementModalLabel1">Yaz Tatili İndirimleri!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>İçerik:</strong> %30'a varan yaz tatili indirim fırsatını kaçırmayın!</p>
+                <p><strong>Geçerlilik Tarihi:</strong> 1 Haziran - 31 Ağustos 2024</p>
+                <p><strong>Detaylar:</strong> Yalnızca 3 gece ve üzeri konaklamalarda geçerlidir. Ücretsiz iptal seçeneği sunulmaktadır.</p>
+                <a href="duyuru1.pdf" target="_blank" class="btn btn-info">PDF İndir</a>
+                <a href="duyuru1.docx" target="_blank" class="btn btn-secondary">Word Belgesi İndir</a>
+                <img src="duyuru1_full.jpg" class="img-fluid mt-3" alt="Duyuru Görseli">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="announcementModal2" tabindex="-1" aria-labelledby="announcementModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="announcementModalLabel2">Ücretsiz Kargo Kampanyası</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>İçerik:</strong> Tüm rezervasyonlarda ücretsiz kargo fırsatını yakalayın!</p>
+                <p><strong>Geçerlilik Tarihi:</strong> 1 Temmuz - 15 Temmuz 2024</p>
+                <p><strong>Detaylar:</strong> Ücretsiz kargo yalnızca yurt içi teslimatlarda geçerlidir. Kampanya 2 ve üzeri gece konaklamalarda geçerlidir.</p>
+                <a href="duyuru2.pdf" target="_blank" class="btn btn-info">PDF İndir</a>
+                <a href="duyuru2.docx" target="_blank" class="btn btn-secondary">Word Belgesi İndir</a>
+                <img src="duyuru2_full.jpg" class="img-fluid mt-3" alt="Duyuru Görseli">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="announcementModal3" tabindex="-1" aria-labelledby="announcementModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="announcementModalLabel3">Erken Rezervasyon İndirimi!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>İçerik:</strong> Erken Rezervasyonlarda %20 İndirim Fırsatı!</p>
+                <p><strong>Geçerlilik Tarihi:</strong> 15 Haziran 2024</p>
+                <p><strong>Detaylar:</strong> Tatilinizi önceden planlayarak, özel erken rezervasyon indiriminden faydalanabilirsiniz. Kampanya, sadece 30 Haziran'a kadar yapılacak rezervasyonlarda geçerlidir. 2 gece ve üzeri konaklamalarda ekstra %5 indirim daha kazanabilirsiniz.
+</p>
+                <a href="duyuru3.pdf" target="_blank" class="btn btn-info">PDF İndir</a>
+                <a href="duyuru3.docx" target="_blank" class="btn btn-secondary">Word Belgesi İndir</a>
+                <img src="duyuru3_full.jpg" class="img-fluid mt-3" alt="Duyuru Görseli">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="announcementModal4" tabindex="-1" aria-labelledby="announcementModalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="announcementModalLabel4">Ailelere Özel Paketlerde Ekstra %15 İndirim!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>İçerik:</strong> Ailelere özel paketlerimizde ekstra %15 indirim fırsatı!</p>
+                <p><strong>Geçerlilik Tarihi:</strong> 30 Temmuz 2024</p>
+                <p><strong>Detaylar:</strong> Ailelere özel paketlerimizde, konaklama süreniz boyunca ekstra %15 indirim fırsatını kaçırmayın. Bu kampanya, yalnızca 1 Temmuz - 30 Temmuz tarihleri arasında geçerlidir. 2 gece ve üzeri konaklamalarda ekstra %10 indirim daha kazanabilirsiniz.</p>
+                <a href="duyuru4.pdf" target="_blank" class="btn btn-info">PDF İndir</a>
+                <a href="duyuru4.docx" target="_blank" class="btn btn-secondary">Word Belgesi İndir</a>
+                <img src="duyuru4_full.jpg" class="img-fluid mt-3" alt="Duyuru Görseli">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal 5 -->
+<div class="modal fade" id="announcementModal5" tabindex="-1" aria-labelledby="announcementModalLabel5" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="announcementModalLabel5">Sadık Müşterilerimize Özel İndirim</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>İçerik:</strong> Sadık müşterilerimize özel %25 indirim fırsatı!</p>
+                <p><strong>Geçerlilik Tarihi:</strong> 30 Eylül 2024</p>
+                <p><strong>Detaylar:</strong> Bizimle uzun süreli konaklayan müşterilerimize özel olarak %25 indirim fırsatı sunuyoruz. Bu kampanya, yalnızca 1 Temmuz - 30 Eylül tarihleri arasında geçerlidir. Ek olarak, 3 gecelik konaklamalar için ekstra %5 indirim fırsatı bulunmaktadır.</p>
+                <a href="duyuru5.pdf" target="_blank" class="btn btn-info">PDF İndir</a>
+                <a href="duyuru5.docx" target="_blank" class="btn btn-secondary">Word Belgesi İndir</a>
+                <img src="duyuru5_full.jpg" class="img-fluid mt-3" alt="Duyuru Görseli">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        
+
+<!-- Modal 6 -->
+<div class="modal fade" id="announcementModal6" tabindex="-1" aria-labelledby="announcementModalLabel6" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="announcementModalLabel6">Yeni Yıl Erken Rezervasyon İndirimi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>İçerik:</strong> Yeni yıl için %20 erken rezervasyon indirimi fırsatını kaçırmayın!</p>
+                <p><strong>Geçerlilik Tarihi:</strong> 31 Aralık 2024</p>
+                <p><strong>Detaylar:</strong> Yeni yıl tatilinizi erkenden planlayarak %20 indirim fırsatından yararlanabilirsiniz. Ayrıca, 7 gecelik konaklamalarda ekstra %10 indirim fırsatı da sunulmaktadır. Bu kampanya, 1 Ekim - 31 Aralık tarihleri arasında geçerlidir.</p>
+                <a href="duyuru6.pdf" target="_blank" class="btn btn-info">PDF İndir</a>
+                <a href="duyuru6.docx" target="_blank" class="btn btn-secondary">Word Belgesi İndir</a>
+                <img src="duyuru6_full.jpg" class="img-fluid mt-3" alt="Duyuru Görseli">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Ana Sayfa Duyurular/Fırsatlar/Kampanyalar Bölümü End -->
+
+
+
+        <!-- Newsletter Start -->
+        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 border rounded p-1">
+                    <div class="border rounded text-center p-1">
+                        <div class="bg-white rounded text-center p-5">
+                            <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter Start -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bg-primary rounded p-4">
+                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">The Green Haven</h1></a>
+                            <p class="text-white mb-0">
+								Yeşili sev,doğayı koru. 
+								The Green Haven farkı ile Sizi Doğanın Sakinliğine Davet Ediyoruz...
+							</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">İLETİŞİM</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kabaoğlu, Prof. Baki Komşuoğlu Blv. CADDESİ No:518, 41000 İzmit/Kocaeli</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+90 546 972 09 07</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>tsekmen.210@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://x.com/_tuncaySekmen_"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/eray.cumen.75/?locale=tr_TR"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/tuncaysekmen/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="row gy-5 g-4">
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">ŞİRKET</h6>
+                                <a class="btn btn-link" href="hakkimizda.html">Hakkımızda</a>
+                                <a class="btn btn-link" href="iletisim.html">İletişim</a>
+                                <a class="btn btn-link" href="">Gizlilik ve Güvenlik</a>
+                                <a class="btn btn-link" href="">Şartlar ve Koşullar</a>
+                                <a class="btn btn-link" href="">Destek</a>
+                                <a class="btn btn-link" href="duyurular.html">Duyurular</a>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">SERVİSLERİMİZ</h6>
+                                <a class="btn btn-link" href="servislerimiz.html">Yemek & Restaurant</a>
+                                <a class="btn btn-link" href="servislerimiz.html">Spa & Fitness</a>
+                                <a class="btn btn-link" href="servislerimiz.html">Spor & Oyun</a>
+                                <a class="btn btn-link" href="servislerimiz.html">Etkinlik & Parti</a>
+                                <a class="btn btn-link" href="servislerimiz.html">GYM & Yoga</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">The Green Haven</a>, Tüm Hakları Saklıdır. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">Tuncay SEKMEN</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Anasayfa</a>
+                                <a href="">Çerezler</a>
+                                <a href="">Yardım</a>
+                                <a href="">SSS-Sıkça Sorulan Sorular</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+  <!-- JavaScript Dosyanızı Buraya Dahil Edin -->
+    <script src="main.js" defer></script>
+
+</html>
